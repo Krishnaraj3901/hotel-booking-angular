@@ -1,0 +1,155 @@
+[
+  {
+    "suite_name": "Deluxe Suite",
+    "description": "A spacious and luxurious suite with a king-sized bed, a private balcony, and stunning views of the city.",
+    "single_image": "https://c4.wallpaperflare.com/wallpaper/844/53/319/miami-florida-hotel-room-wallpaper-preview.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Mini Bar",
+      "Room Service",
+      "Flat-screen TV",
+      "King-sized Bed",
+      "Private Bathroom",
+      "Air Conditioning",
+      "Balcony with City View"
+    ],
+    "rate": {
+      "nightly": 300.0,
+      "weekly": 1800.0
+    },
+    "roomId": "1"
+  },
+  {
+    "suite_name": "Standard Room",
+    "description": "A comfortable room with a queen-sized bed and basic amenities.",
+    "single_image": "https://png.pngtree.com/thumb_back/fh260/background/20220311/pngtree-bedroom-guest-room-five-star-hotel-image_990205.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Cable TV",
+      "Queen-sized Bed",
+      "Private Bathroom",
+      "Air Conditioning"
+    ],
+    "rate": {
+      "nightly": 100.0,
+      "weekly": 600.0
+    },
+    "roomId": "2"
+  },
+  {
+    "suite_name": "Executive Suite",
+    "description": "An upscale suite with a separate living area, a king-sized bed, and a private Jacuzzi.",
+    "single_image": "https://w0.peakpx.com/wallpaper/240/377/HD-wallpaper-bedroom-hotel-room-light-design-modern-apartment-interior-idea-modern-design.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Mini Bar",
+      "Room Service",
+      "Flat-screen TV",
+      "King-sized Bed",
+      "Private Bathroom with Jacuzzi",
+      "Air Conditioning",
+      "Balcony with Sea View",
+      "Complimentary Breakfast"
+    ],
+    "rate": {
+      "nightly": 400.0,
+      "weekly": 2400.0
+    },
+    "roomId": "3"
+  },
+  {
+    "suite_name": "Family Room",
+    "description": "A spacious room with two double beds, perfect for a family vacation.",
+    "single_image": "https://media.istockphoto.com/id/1163498940/photo/interior-of-a-modern-luxury-hotel-double-bed-bedroom.jpg?b=1&s=612x612&w=0&k=20&c=QwI6wUQ_jp9wP8btcwXL_fQ9KoBqxv69yjozmQ6moB0=",
+    "services": [
+      "Free Wi-Fi",
+      "Cable TV",
+      "Two Double Beds",
+      "Private Bathroom",
+      "Air Conditioning"
+    ],
+    "rate": {
+      "nightly": 150.0,
+      "weekly": 900.0
+    },
+    "roomId": "4"
+  },
+  {
+    "suite_name": "Penthouse Suite",
+    "description": "An extravagant penthouse suite with a private rooftop terrace, a king-sized bed, and a Jacuzzi.",
+    "single_image": "https://c4.wallpaperflare.com/wallpaper/686/52/945/luxurious-hotel-room-wallpaper-preview.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Mini Bar",
+      "Room Service",
+      "Flat-screen TV",
+      "King-sized Bed",
+      "Private Bathroom with Jacuzzi",
+      "Air Conditioning",
+      "Private Rooftop Terrace with City View",
+      "Complimentary Champagne"
+    ],
+    "rate": {
+      "nightly": 600.0,
+      "weekly": 3600.0
+    },
+    "roomId": "5"
+  },
+  {
+    "suite_name": "Single Room",
+    "description": "A cozy room with a single bed and essential amenities.",
+    "single_image": "https://img.freepik.com/free-photo/small-hotel-room-interior-with-double-bed-bathroom_1262-12489.jpg?w=2000",
+    "services": [
+      "Free Wi-Fi",
+      "Cable TV",
+      "Single Bed",
+      "Private Bathroom",
+      "Air Conditioning"
+    ],
+    "rate": {
+      "nightly": 80.0,
+      "weekly": 480.0
+    },
+    "roomId": "6"
+  },
+  {
+    "suite_name": "Honeymoon Suite",
+    "description": "A romantic suite with a four-poster bed, a private balcony, and complimentary champagne.",
+    "single_image": "https://w0.peakpx.com/wallpaper/383/805/HD-wallpaper-romantique-rouge-red-hotel-window-romantic-view-relax-luxe-bedroom-roses-elegant-suite-style.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Mini Bar",
+      "Room Service",
+      "Four-Poster Bed",
+      "Private Bathroom",
+      "Air Conditioning",
+      "Balcony with Ocean View",
+      "Complimentary Champagne"
+    ],
+    "rate": {
+      "nightly": 450.0,
+      "weekly": 2700.0
+    },
+    "roomId": "7"
+  },
+  {
+    "suite_name": "Business Suite",
+    "description": "A well-appointed suite with a work desk, high-speed internet, and a comfortable king-sized bed.",
+    "single_image": "https://png.pngtree.com/thumb_back/fh260/background/20230423/pngtree-hotel-room-that-has-a-window-overlooking-the-harbor-image_2489169.jpg",
+    "services": [
+      "Free Wi-Fi",
+      "Work Desk",
+      "High-Speed Internet",
+      "Flat-screen TV",
+      "King-sized Bed",
+      "Private Bathroom",
+      "Air Conditioning",
+      "Complimentary Coffee"
+    ],
+    "rate": {
+      "nightly": 250.0,
+      "weekly": 1500.0
+    },
+    "roomId": "8"
+  }
+]

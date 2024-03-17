@@ -1,0 +1,144 @@
+<body class="bg-light" style="height: 680px;">
+    
+
+
+  <!-- nabvbar -->
+  <nav>
+    <div class="navlogo"><i class='bx bx-cloud' ></i>Cloud Inn</div>
+  
+    
+    <ul class="nav_links">
+      <!-- <li class="link"><a href="#">Contact Us</a></li> -->
+  
+  
+    </ul>
+  </nav>
+
+  <div *ngIf="RegisterSuccess" class="container text-center mt-5 p-4">
+    <h1 class="text-success">Please Wait... <span></span></h1>
+    <div class="lds-facebook"><div></div><div></div><div></div></div>
+  </div>
+
+
+  
+
+  
+  
+    <!-- Register forms -->
+  <div *ngIf="!RegisterSuccess" class="container pb-3">
+  
+      <div class="row">
+  
+          <div class="col-6 mt-5 pe-5 pt-4">
+  
+              <div class="text-start">
+                  <img class="rounded-circle shadow" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Holiday-travel-hero-grey.gif" width="100%" alt="airplane gif">
+  
+              </div>
+  
+              
+          </div>
+        
+          <div class="col-6 border login1 rounded  mt-3 pt-3 p-3">
+              <div class="mt-4">
+                  <h1 class="m-2">Register Form</h1>
+                  <form (ngSubmit)="register()" [formGroup]="registerForm"   class="">
+                         
+                      <input formControlName="username" name="username" class="form-control border border-dark form-control-sm m-2 p-3" type="text" placeholder="Your Name Please" aria-label=".form-control-sm example">
+                      <div *ngIf="this.registerForm.get('username')?.errors&&this.registerForm.get('username')?.touched" class="text-danger">*Invalid Username</div>
+                      <input formControlName="phno" name="phno"  class="form-control border border-dark form-control-sm m-2 mt-2 p-3" type="text" placeholder="Your Phone Number Please" aria-label=".form-control-sm example">
+                      <div *ngIf="this.registerForm.get('phno')?.errors&&this.registerForm.get('phno')?.touched" class="text-danger" >*Invalid Mobile Number</div>
+                      <input formControlName="password" name="password"  class="form-control border border-dark form-control-sm m-2 mt-2 p-3" type="password" placeholder="Your Password Please" aria-label=".form-control-sm example">
+                      <div *ngIf="this.registerForm.get('password')?.errors&&this.registerForm.get('password')?.touched" class="text-danger" >*Invalid password</div>
+  
+                      <div class="text-end">
+                         <p>Already a User ?<a routerLink="/">Login</a></p>
+                      </div>
+
+                      <div class="text-center">
+                        <h3 class="text-danger">{{RegisterError}}</h3>
+                      </div>
+
+  
+                      <button type="submit"  class="btn btn-outline-dark ms-2 m-2">Register</button>
+                  </form>
+              </div>
+             
+          </div>
+       
+      </div>
+  </div>
+  
+  <!-- footer -->
+  
+   <!-- footer -->
+   <footer class="text-center text-white " style="background-color: rgb(141, 120, 5); box-shadow: 2px 2px 2x 2px darkblue; margin-top: 400px;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: darkblue">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Air-Ways.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  </body>

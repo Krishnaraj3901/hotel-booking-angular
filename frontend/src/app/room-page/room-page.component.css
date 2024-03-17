@@ -1,0 +1,166 @@
+.rooms{
+  margin: 40px 0;
+}
+.room{
+  margin: 45px 0;
+  padding-bottom: 25px;
+  background: rgb(250, 250, 249);
+  color: rgb(8, 8, 8);
+}
+.room-text{
+  padding: 5px 20px;
+}
+.room-text h3{
+  font-size: 24px;
+}
+.room-text ul{
+ list-style-type: none;
+ margin: 15px 0;
+}
+.room-text ul li{
+  padding: 7px 0;
+
+}
+.room-text ul li i{
+  color: cadetblue;
+  margin-right: 10px;
+}
+.rate{
+  opacity: 0.8;
+} 
+.rate span{
+  font-size: 40px;
+  font-weight: 900;
+  color: cadetblue;
+}
+.room-image{
+  overflow: hidden;
+  background: var(--bg-color);
+  border: 1px solid #f0eded;
+  padding: 50px 40px;
+  border-radius: 4px;
+}
+.room-image img{
+  margin: 10px;
+
+  height: 385px;
+  width: 685px;
+  padding: 15px;
+  background: var(--bg-color);
+  box-shadow: 5px 10px 30px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-left: 40px;
+  transition: all 0.7s ease;
+}
+.room-image:hover img{
+  transform: scale(1.1);
+}
+.btn{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: rgb(236, 238, 238);
+  background: rgb(126, 160, 161);
+  color: rgb(9, 9, 9);
+  border-radius: 6px;
+  padding: 10px;
+  width: 130px;
+  display: block;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.btn:hover{
+  opacity: 0.55;
+}
+.title{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: cadetblue;
+  border-bottom: 4px solid black;
+  width: 200px;
+  margin: 15px 0;
+}
+/* @media (min-width:1370px) {
+  .rooms-container{
+    flex-direction: column;
+  }
+  .room{
+    display: flex;
+    padding-bottom: 0;
+    margin: 5px 0;
+  }
+  .room-image{
+    flex: 1;
+  }
+  .room-image img{
+    height: 100%;
+  } 
+}*/
+
+.customers{
+  margin-top: 40px;
+  padding: 40px 0;
+  background: url(https://w0.peakpx.com/wallpaper/789/1010/HD-wallpaper-interior-hotel-resort-table-colorful-lamp-lobby-colors-design-beautiful-lights-r-sofa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.customer{
+  background: #f0eded;
+  padding: 35px;
+  text-align: center;
+  margin: 24px 0;
+  box-shadow: 0px 0px 0px 5px black;
+  transition: all 0.8s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.rating{
+  margin: 10px 0;
+  color: gold;
+
+}
+.customer h3{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+.customer p{
+  opacity: 0.7;
+  line-height: 1.8  ;
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper{
+ width: 100%;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px;
+ margin-right: 10px;
+ background: rgb(236, 235, 234);
+}
+.master{
+  width: auto;
+  padding: 10px;
+
+}
+.rating-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.master h1{
+  text-decoration: underline;
+  padding-bottom: 20px;
+  color: cadetblue;  
+}
+.question-tag{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

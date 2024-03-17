@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="col-6 mt-5">
+  <button (click)="generatePdf()" style="float: right;" class="btn btn-info">Export as pdf</button>
+</div>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">No.</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Checkin Date</th>
+        <th scope="col">Checkout Date</th>
+        <th scope="col">Suite Name</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let history of roomHistory;let i = index">
+      <tr>
+        <th scope="row">1</th>
+        <td>{{history.fullname}}</td>
+        <td>{{history.checkin}}</td>
+        <td>{{history.checkout}}</td>
+        <!-- <td>{{rooms[i].rate.nightly}}</td> -->
+        <td>{{rooms[i].suite_name}}</td>
+
+      </tr>
+      <!-- <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+          <td>@twitter</td>
+        </tr> -->
+    </tbody>
+  </table>
+
+</div>
+<app-footer></app-footer>
